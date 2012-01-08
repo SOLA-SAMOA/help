@@ -1,0 +1,55 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>sola-main</artifactId>
+        <groupId>org.sola</groupId>
+        <version>alpha</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <groupId>org.sola.common</groupId>
+    <artifactId>sola-help</artifactId>
+    <version>alpha</version>
+    <packaging>jar</packaging>
+    <name>Common Help</name>
+                                                                                             
+    <developers>
+        <developer>
+            <id>soladev-raf</id>
+            <name>Rafiq</name>
+            <email>Rafiq.Dounnaah@fao.org</email>
+            <url>http://www.fao.org</url>
+            <organization>FAO</organization>
+            <organizationUrl>http://www.fao.org</organizationUrl>
+            <roles>
+                <role>Developer</role>
+                <role>Land Registration Analyst</role>
+            </roles>
+            <timezone>+2</timezone>
+            <properties>
+                <picUrl>http://tinyurl.com/prv4t</picUrl>
+            </properties>
+        </developer>
+    </developers>
+  
+    
+  
+    <dependencies>
+        <dependency>
+            <groupId>javax.help</groupId>
+            <artifactId>javahelp</artifactId>
+            <version>2.0.05</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>sola-messaging</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>sola-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>
