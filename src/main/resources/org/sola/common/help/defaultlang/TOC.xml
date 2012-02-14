@@ -15,8 +15,15 @@
                 <tocitem image="topic" target="application_lifecycle" text="Application Lifecycle"/>
                 <tocitem image="topic" target="service_lifecycle" text="Service Lifecycle"/>
             </tocitem>
-            <tocitem image="topic" target="property_details" text="Property Details"/>
+            <tocitem image="topic" target="property_details" text="Property Details">
+                <tocitem image="topic" target="linkProperty" text="Linking property"/>
+            </tocitem>
             <tocitem image="topic" target="cadastre_change" text="Cadastre Change"/>
+            <tocitem image="topic" target="propertySearch" text="Property search"/>
+            <tocitem image="topic" target="personSearch" text="Person search"/> 
+            <tocitem image="topic" target="person" text="Person details"/> 
+            <tocitem image="topic" target="documentSearch" text="Document search"/> 
+            <tocitem image="topic" target="transactionedDocument" text="Document registration"/> 
         </tocitem>	
         <tocitem image="category" text="How to">
             <tocitem image="topic" target="change_language" text="Change Language"/>
@@ -29,6 +36,8 @@
             <tocitem image="topic" target="verify_property_details" text="Verify Property Details"/>
             <tocitem image="topic" target="add_location" text="Add Location for Application"/>
             <tocitem image="topic" target="add_ownership_details" text="Add Ownership Details to a Property"/>
+            <tocitem image="topic" target="share" text="Create share"/>
+            <tocitem image="topic" target="add_simple_right" text="Create generic right"/>
             <tocitem image="topic" target="add_mortgage" text="Add Mortgage Details to a Property"/>
             <tocitem image="topic" target="perform_cadastre_change" text="Perform a Cadastre Change"/> 
         </tocitem>

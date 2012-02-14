@@ -25,6 +25,8 @@
     <mapID target="service_lifecycle" url="howtotopics/service_lifecycle.html" /> 
     <mapID target="property_details" url="howtotopics/property_details.html" /> 
     <mapID target="cadastre_change" url="howtotopics/cadastre_change.html" />
+    <mapID target="linkProperty" url="howtotopics/linkProperty.html" />
+    <mapID target="share" url="howtotopics/share.html" />
     
 <!--Reference to the how tos-->
     <mapID target="change_language" url="howtotopics/change_language.html" />
@@ -38,6 +40,12 @@
     <mapID target="add_location" url="howtotopics/add_location.html" />
     <mapID target="add_ownership_details" url="howtotopics/add_ownership_details.html" />
     <mapID target="add_mortgage" url="howtotopics/add_mortgage.html" />
-   <mapID target="perform_cadastre_change" url="howtotopics/perform_cadastre_change.html" />
+    <mapID target="add_simple_right" url="howtotopics/simpleRight.html" />
+    <mapID target="perform_cadastre_change" url="howtotopics/perform_cadastre_change.html" />
+    <mapID target="propertySearch" url="howtotopics/propertySearch.html" />
+    <mapID target="person" url="howtotopics/person.html" />
+    <mapID target="personSearch" url="howtotopics/personSearch.html" />
+    <mapID target="documentSearch" url="howtotopics/documentSearch.html" />
+    <mapID target="transactionedDocument" url="howtotopics/transactionedDocument.html" />
 
 </map>

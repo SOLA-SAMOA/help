@@ -33,11 +33,13 @@ import java.util.logging.Level;
 import javax.help.CSH;
 import javax.help.HelpBroker;
 import javax.help.HelpSet;
+import javax.help.Popup;
 import javax.swing.JButton;
 import javax.swing.JMenuItem;
+import javax.swing.JPanel;
+import org.sola.common.logging.LogUtility;
 import org.sola.common.messaging.ClientMessage;
 import org.sola.common.messaging.MessageUtility;
-import org.sola.common.logging.LogUtility;
 
 /**
  *
@@ -45,9 +47,9 @@ import org.sola.common.logging.LogUtility;
  */
 public class HelpUtility {
 
-    private ActionListener al = null;
-    private HelpSet hs = null;
-
+    private HelpSet helpSet = null;
+    private HelpBroker helpBroker;
+    
     private HelpUtility() {
     }
 
@@ -65,14 +67,12 @@ public class HelpUtility {
      * @return Helpset 
      */
     private HelpSet getHelpSet() {
-        if (hs == null) {
+        if (helpSet == null) {
             String pathToHS = "defaultlang/HelpSet.xml";
-            //hs = null;
             try {
-                
                 URL hsURL = getClass().getResource(pathToHS);
                 LogUtility.log("Found HelpSet at " + pathToHS, Level.FINE);
-                hs = new HelpSet(null, hsURL);
+                helpSet = new HelpSet(null, hsURL);
             } catch (Exception ee) {
                 System.out.println("HelpSet: " + ee.getMessage());
                 System.out.println("HelpSet: " + pathToHS + " not found");
@@ -80,36 +80,70 @@ public class HelpUtility {
                 MessageUtility.displayMessage(ClientMessage.EXCEPTION_HELPSET, params);
             }
         }
-        return hs;
+        return helpSet;
     }
 
+    private HelpBroker getHelpBroker(){
+        if(helpBroker == null){
+            helpBroker = getHelpSet().createHelpBroker();
+        }
+        return helpBroker;
+    }
+    
     /**
      * Returns an <code>ActionListener<code/> for displaying help topics in a help viewer.
      *
-     * @param object JButton to which the actionListener is reistered to listen for events
+     * @param object JButton to which the actionListener is registered to listen for events
      * @param contextMapID MapID of the topic to be displayed
      * @return ActionListener for <code>object</code>
      */
     public ActionListener getHelpListener(JButton object, String contextMapID) {
-        HelpBroker hb = getHelpSet().createHelpBroker();
-        // hb.enableHelpKey(getMainForm(), "overview", hs);
         CSH.setHelpIDString(object, contextMapID);
-        al = new CSH.DisplayHelpFromSource(hb);
-        return al;
+        return new CSH.DisplayHelpFromSource(getHelpBroker());
+    }
+    
+    /** 
+     * Enables help on the button. If button is clicked, help topic will be displayed. 
+     * @param object JButton to which the actionListener is registered to listen for events
+     * @param contextMapID MapID of the topic to be displayed
+     */
+    public void registerHelpButton(JButton object, String contextMapID) {
+        getHelpBroker().enableHelpOnButton(object, contextMapID, getHelpSet());
+    }
+    
+    /** 
+     * Enables help on the button. If button is clicked, help topic will be displayed. 
+     * @param object JMenuItem to which the actionListener is registered to listen for events
+     * @param contextMapID MapID of the topic to be displayed
+     */
+    public void registerHelpMenu(JMenuItem object, String contextMapID) {
+        getHelpBroker().enableHelpOnButton(object, contextMapID, getHelpSet());
     }
 
+    /** Registers provided panel to display help topic upon F1 key press. */
+    public void registerHelpKey(JPanel object, String contextMapID) {
+        getHelpBroker().enableHelpKey(object, contextMapID, getHelpSet());
+    }
+    
     /**
      * Returns an <code>ActionListener<code/> for displaying help topics in a help viewer.
      *
-     * @param object JMenuItem to which the actionListener is reistered to listen for events
+     * @param object JMenuItem to which the actionListener is registered to listen for events
      * @param contextMapID MapID of the topic to be displayed
      * @return ActionListener for <code>object</code>
      */
     public ActionListener getHelpListener(JMenuItem object, String contextMapID) {
-        HelpBroker hb = getHelpSet().createHelpBroker();
         CSH.setHelpIDString(object, contextMapID);
-        al = new CSH.DisplayHelpFromSource(hb);
-        return al;
-
+        return new CSH.DisplayHelpFromSource(getHelpBroker());
+    }
+    
+    public void showTopic(String contextMapID){
+        if(getHelpBroker().isDisplayed()){
+            getHelpBroker().setCurrentID(contextMapID); 
+        } else {
+            getHelpBroker().initPresentation();
+            getHelpBroker().setCurrentID(contextMapID);
+        }
+        ((javax.help.DefaultHelpBroker)getHelpBroker()).setDisplayed(true);
     }
 }
