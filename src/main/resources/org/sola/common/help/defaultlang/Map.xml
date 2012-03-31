@@ -25,6 +25,7 @@
     <mapID target="service_lifecycle" url="howtotopics/service_lifecycle.html" /> 
     <mapID target="property_details" url="howtotopics/property_details.html" /> 
     <mapID target="cadastre_change" url="howtotopics/cadastre_change.html" />
+    <mapID target="redefine_cadastre" url="howtotopics/redefine_cadastre.html" />
     <mapID target="linkProperty" url="howtotopics/linkProperty.html" />
     <mapID target="share" url="howtotopics/share.html" />
     
@@ -34,6 +35,7 @@
     <mapID target="edit_an_application" url="howtotopics/edit_an_application.html" />
     <mapID target="assign_an_application" url="howtotopics/assign_an_application.html" />
     <mapID target="unassign_an_application" url="howtotopics/unassign_an_application.html" />
+    <mapID target="add_document" url="howtotopics/add_document.html" />
     <mapID target="attach_digital_document" url="howtotopics/attach_digital_document.html" />
     <mapID target="calculate_fees" url="howtotopics/calculate_fees.html" />
     <mapID target="verify_property_details" url="howtotopics/verify_property_details.html" />
@@ -42,6 +44,8 @@
     <mapID target="add_mortgage" url="howtotopics/add_mortgage.html" />
     <mapID target="add_simple_right" url="howtotopics/simpleRight.html" />
     <mapID target="perform_cadastre_change" url="howtotopics/perform_cadastre_change.html" />
+    <mapID target="perform_redefine_cadastre" url="howtotopics/perform_redefine_cadastre.html" />
+    <mapID target="change_boundary" url="howtotopics/change_boundary.html" />
     <mapID target="propertySearch" url="howtotopics/propertySearch.html" />
     <mapID target="person" url="howtotopics/person.html" />
     <mapID target="personSearch" url="howtotopics/personSearch.html" />
