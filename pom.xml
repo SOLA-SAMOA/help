@@ -13,28 +13,7 @@
     <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Common Help</name>
-                                                                                             
-    <developers>
-        <developer>
-            <id>soladev-raf</id>
-            <name>Rafiq</name>
-            <email>Rafiq.Dounnaah@fao.org</email>
-            <url>http://www.fao.org</url>
-            <organization>FAO</organization>
-            <organizationUrl>http://www.fao.org</organizationUrl>
-            <roles>
-                <role>Developer</role>
-                <role>Land Registration Analyst</role>
-            </roles>
-            <timezone>+2</timezone>
-            <properties>
-                <picUrl>http://tinyurl.com/prv4t</picUrl>
-            </properties>
-        </developer>
-    </developers>
-  
-    
-  
+                                                                                            
     <dependencies>
         <dependency>
             <groupId>javax.help</groupId>
