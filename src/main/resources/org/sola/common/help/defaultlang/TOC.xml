@@ -19,6 +19,7 @@
                 <tocitem image="topic" target="linkProperty" text="Linking property"/>
             </tocitem>
             <tocitem image="topic" target="cadastre_change" text="Cadastre Change"/>
+            <tocitem image="topic" target="redefine_cadastre" text="Redefine Cadastre"/>
             <tocitem image="topic" target="propertySearch" text="Property search"/>
             <tocitem image="topic" target="personSearch" text="Person search"/> 
             <tocitem image="topic" target="person" text="Person details"/> 
@@ -31,6 +32,7 @@
             <tocitem image="topic" target="edit_an_application" text="Edit an Application"/>
             <tocitem image="topic" target="assign_an_application" text="Assign an Application"/>
             <tocitem image="topic" target="unassign_an_application" text="Un-assign an Application"/>
+            <tocitem image="topic" target="add_document" text="Add Document"/>	
             <tocitem image="topic" target="attach_digital_document" text="Attach a Digital Document"/>	
             <tocitem image="topic" target="calculate_fees" text="Calculate Fees"/>
             <tocitem image="topic" target="verify_property_details" text="Verify Property Details"/>
@@ -40,6 +42,9 @@
             <tocitem image="topic" target="add_simple_right" text="Create generic right"/>
             <tocitem image="topic" target="add_mortgage" text="Add Mortgage Details to a Property"/>
             <tocitem image="topic" target="perform_cadastre_change" text="Perform a Cadastre Change"/> 
+            <tocitem image="topic" target="perform_redefine_cadastre" text="Perform a Redefinition of Cadastre"/> 
+            <tocitem image="topic" target="change_boundary" text="Change Boundary"/>
+            
         </tocitem>
 
         <tocitem image="topic" target="issues" text="Known Issues"/>			

@@ -14,8 +14,9 @@ geospatial data managed by SOLA. It can be accessed from the Map &gt;
 Ctrl + Open Map menu or selecting <img style="width: 16px; height: 16px;" alt="" src="../images/05_world_icon.png"></p><br>
 <p><img style="width: 600px; height: 400px;" alt="" src="../images/10_map_viewer.png"></p>
 
-<p>The SOLA Map Viewer includes a toolbar for navigating and querying
-the map and a Table of Contents that can be used to control the layers displayed on the map.
+<p>The SOLA Map Viewer includes a toolbar for navigating and querying the map and two tabs: 
+    one Table of Contents that can be used to control the layers displayed on the map 
+    and one Find tab that can be used to find parcels in the map
 The tools provided for the SOLA Map Viewer are:</p>
 
 <ul>
@@ -26,6 +27,8 @@ The tools provided for the SOLA Map Viewer are:</p>
   <li>Pan <img style="width: 16px; height: 16px;" alt="" src="../images/14_pan_icon.png"></li>
   <li>Information Tool <img style="width: 16px; height: 16px;" alt="" src="../images/15_information_tool_icon.png"><br>
   </li>
+  <li>Print <img style="width: 16px; height: 16px;" alt="" src="../images/50_print_icon.jpg"></li>
+  
 </ul>
 
 <p>The SOLA Map Viewer can also support additional map tools for
@@ -34,8 +37,14 @@ tools are described in the relevant How To sections</p>
 
 <h2>Table of Contents</h2>
 
-<p>The Table of Contents control identifies the layers that are displayed in the map.
-You can show or hide these layers by checking or clearing the checkbox for the layer.</p>
+<p>The Table of Contents control identifies the layers that are displayed in the map. 
+    You can show or hide these layers by checking or clearing the checkbox for the layer. 
+    You can also change the scale represented when printing out the map by extending the layer item and selecting the needed scale range.</p>
+
+<h2>Find Tab</h2>
+
+<p>The Find Tab allows to find parcels in the either searching by property owner, property or parcel number. You can choose the selection criteria by selecting it in the combo box “Search by” and then start typing in the field below. If more than 2 characters are typed, a free text search is happening (google like search) which gives back the top 10 hits in the list below. Double click in one of the items in the list or click / move with arrow buttons and then press enter.
+The map will zoom to the location where the cadastre object is found.</p>
 
 <h2>Information Tool</h2>
 
@@ -45,6 +54,19 @@ in close proximity or overlap, the Information Tool displays details
 for all features immediately surrounding the selected location.</p><br>
 
 <img style="width: 519px; height: 329px;" alt="" src="../images/16_information_tool.png">
+
+<h2>Print out Tool</h2>
+
+<p>The Print Out Tool can be used to print out the visualised map in a pdf file format.
+You can turn layers on/off if you want or don't want some of them to be in printout.
+Then you can choose a layout. At the moment there is only one A4 but there can be defined as many as needed.
+In the same dialog you can choose a scale. An estimated scale is already calculated from the map.<br>
+Finally click Print button.
+A pdf will be generated and be opened by the default program which opens PDFs. So a PDF Viewer must be installed in the system.
+<br>
+Notice that everywhere in the software there is a map there is a Print button as well and that when printing – additionally - a service of type cadastrePrint is registered in the service table and also marked as completed (if the map window is started by an application, this service is attached to the application) 
+</p>
+
 <p><b>Also see</b></p>
 <ul>
   <li><a href="edit_an_application.html" target="_top">Edit an application</a><br>
