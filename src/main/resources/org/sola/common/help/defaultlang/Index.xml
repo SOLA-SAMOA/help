@@ -1,35 +1,186 @@
-<?xml version='1.0' encoding='ISO-8859-1' ?>
-<!DOCTYPE index
-  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN"
-         "http://java.sun.com/products/javahelp/index_1_0.dtd">
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE index PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 2.0//EN"
+                       "http://java.sun.com/products/javahelp/index_2_0.dtd">
 
-<index version="1.0">
-	<indexitem target="colors" text="Color View"/>
-	<indexitem target="apply_colors" text="applying colors"/>
-	<indexitem target="text_styles" text="bolding text"/>
-	<indexitem target="change_fonts" text="changing fonts"/>
-	<indexitem target="clear_text" text="clearing text"/>
-	<indexitem target="apply_colors" text="colors, applying"/>
-	<indexitem target="enter_text" text="entering text"/>
-	<indexitem target="change_fonts" text="fonts, changing"/>
-	<indexitem target="online_help" text="help, online"/>
-	<indexitem target="overview" text="introduction"/>
-	<indexitem target="text_styles" text="italicizing text"/>
-	<indexitem target="online_help" text="online help"/>
-	<indexitem target="overview" text="overview"/>
-	<indexitem target="switch_views" text="switching views"/>
-	<indexitem text="text">
-		<indexitem target="text_styles" text="bolding"/>
-		<indexitem target="clear_text" text="clearing"/>
-		<indexitem target="apply_colors" text="colors, applying"/>
-		<indexitem target="enter_text" text="entering"/>
-		<indexitem target="change_fonts" text="fonts, changing"/>
-		<indexitem target="text_styles" text="italicizing"/>
+<index version="2.0">
+	<indexitem text="Appendix" expand="false">
+		<indexitem text="Appendix 1 - SOLA Business Rules" target="app_business_rules" />
+		<indexitem text="Appendix 2 - Trimble Pathfinder Software Configuration for SOLA Export CSV File" target="app_trimble_export" />
 	</indexitem>
-	<indexitem target="typefaces" text="Typeface View"/>
-	<indexitem text="views">
-		<indexitem target="colors" text="Color"/>
-		<indexitem target="switch_views" text="switching"/>
-		<indexitem target="typefaces" text="Typeface"/>
+	<indexitem text="Application" expand="false">
+		<indexitem text="Add a location point for an application" target="add_location" />
+		<indexitem text="Assign an application" target="assign_application" />
+		<indexitem text="Cancel, withdraw or lapse an application" target="cancel_application" />
+		<indexitem text="Edit an Application" target="edit_application" />
+		<indexitem text="Lifecycle of an application" target="app_lifecycle" />
+		<indexitem text="Lodge and process a land registration application" target="lodge_land_reg_application" />
+		<indexitem text="Lodge a new application" target="lodge_new_application" />
+		<indexitem text="Search for an application" target="application_search" />
+		<indexitem text="Unassign an application" target="unassign_application" />
+		<indexitem text="View application details" target="application_details" />
 	</indexitem>
+	<indexitem text="Business rules" target="Business Rules" />
+	<indexitem text="Caveat" expand="false">
+		<indexitem text="Cancel or remove a caveat" target="caveat_cancel" />
+		<indexitem text="Change a caveat" target="caveat_change" />
+		<indexitem text="Record a caveat" target="caveat_record" />
+	</indexitem>
+	<indexitem text="Court Order" expand="false">
+		<indexitem text="Cancel a court order" target="court_order_cancel" />
+		<indexitem text="Change a court order" target="court_order_change" />
+		<indexitem text="Record a court order" target="court_order_record" />
+	</indexitem>
+	<indexitem text="Documents" expand="false">
+		<indexitem text="Add a document to an application" target="add_doc_to_application" />
+		<indexitem text="Attach a file" target="attach_file" />
+		<indexitem text="Cancel a standard memorandum" target="cancel_standard_memo" />
+		<indexitem text="Document registration" target="document_registration" />
+		<indexitem text="Find a standard form" target="locate_standard_form" />
+		<indexitem text="Link to a power of attorney" target="link_poa" />
+		<indexitem text="Link  to a standard memorandum" target="link_standard_memorandum" />
+		<indexitem text="Record a lands and titles court judgment" target="record_land_court_judgement" />
+		<indexitem text="Record power of attorney" target="record_poa" />
+		<indexitem text="Record standard memorandum" target="record_standard_memo" />
+		<indexitem text="Revoke power of attorney" target="cancel_poa" />
+		<indexitem text="Search for a document" target="document_search" />
+		<indexitem text="Search for power of attorney" target="document_search_poa" />
+		<indexitem text="Types of document" target="documents" />
+		<indexitem text="Update an attachment on an existing document" target="update_attachment" />
+	</indexitem>
+	<indexitem text="Easement" expand="false">
+		<indexitem text="Cancel an easement" target="easement_cancel" />
+		<indexitem text="Change an easement" target="easement_change" />
+		<indexitem text="Record an easement over an existing property" target="easement_record_exist_prop" />
+		<indexitem text="Record a new easement with create new title" target="easement_record" />
+	</indexitem>
+	<indexitem text="Fees" target="calculate_fees" />
+	<indexitem text="Lease" expand="false">
+		<indexitem text="Cancel or terminate a lease or sublease" target="lease_cancel" />
+		<indexitem text="Change a lease or sublease" target="lease_change" />
+		<indexitem text="Record a lease or sublease" target="lease_record" />
+	</indexitem>
+	<indexitem text="Licensing" target="licensing" />
+	<indexitem text="Life Estate" expand="false">
+		<indexitem text="Cancel a life estate" target="life_estate_cancel" />
+		<indexitem text="Change a life estate" target="life_estate_change" />
+		<indexitem text="Record a life estate" target="life_estate_record" />
+	</indexitem>
+	<indexitem text="Map" expand="false">
+		<indexitem text="About spatial features" target="record_plan_spatial_features" />
+		<indexitem text="About the change map service" target="change_map" />
+		<indexitem text="Cancel the change map service" target="change_map_cancel" />
+		<indexitem text="Change the name of a spatial feature" target="spatial_feature_change_name" />
+		<indexitem text="Edit a spatial feature" target="spatial_feature_change_geom" />
+		<indexitem text="Exporting from the map" target="map_kml_export" />
+		<indexitem text="Lodge and process an application to change the map" target="survey_change_map" />
+		<indexitem text="Map layers" target="map_layers" />
+		<indexitem text="Measure distances on the map" target="map_measure_tool" />
+		<indexitem text="Merge spatial features" target="spatial_feature_merge" />
+		<indexitem text="Navigate the map" target="map_scale_location" />
+		<indexitem text="Nodes" target="change_map_nodes" />
+		<indexitem text="Obtain information from the map" target="information_tool" />
+		<indexitem text="Print the map" target="map_print" />
+		<indexitem text="Remove a spatial feature" target="spatial_feature_remove" />
+		<indexitem text="Search the map" target="map_find" />
+		<indexitem text="Tools provided by the map" target="map_tools" />
+		<indexitem text="Viewing the map" target="map_viewer" />
+	</indexitem>
+	<indexitem text="Miscellaneous Memorials" expand="false">
+		<indexitem text="Cancel a miscellaneous memorial" target="misc_cancel" />
+		<indexitem text="Change a miscellaneous memorial" target="misc_change" />
+		<indexitem text="Record a miscellaneous memorial" target="misc_record" />
+	</indexitem>
+	<indexitem text="Mortgage" expand="false">
+		<indexitem text="Discharge a mortgage" target="mortgage_cancel" />
+		<indexitem text="Record a mortgage" target="mortgage_record" />
+		<indexitem text="Vary a mortgage" target="mortgage_change" />
+	</indexitem>
+	<indexitem text="Overview for SOLA Samoa" target="sola_overview" />
+	<indexitem text="Parcels" expand="false">
+		<indexitem text="Change parcel attributes" target="map_change_parcel_attr" />
+		<indexitem text="Change the area or name of a parcel" target="change_parcel_attributes" />
+		<indexitem text="Creating irregular parcel boundaries" target="record_plan_irreg_boundary" />
+		<indexitem text="Creating new parcels" target="record_plan_new_parcels" />
+		<indexitem text="Editing parcel boundaries with change map" target="change_map_boundaries" />
+		<indexitem text="Remove a parcel from the map" target="change_parcel_attributes_remove" />
+		<indexitem text="Target parcels" target="record_plan_target_parcels" />
+	</indexitem>
+	<indexitem text="Party" expand="false">
+		<indexitem text="Add or edit agents and banks" target="add_agent_bank" />
+		<indexitem text="Search for a party" target="party_search" />
+		<indexitem text="View party details" target="party_details" />
+	</indexitem>
+	<indexitem text="Property" expand="false">
+		<indexitem text="Cancel titles and create new titles" target="cancel_create_titles" />
+		<indexitem text="Change the estate of a property" target="estate_change" />
+		<indexitem text="Convert a paper title or deed into SOLA" target="convert_paper_title" />
+		<indexitem text="Print a certified copy of the CFC" target="print_certified_copy" />
+		<indexitem text="Record property ownership" target="ownership_record" />
+		<indexitem text="Search for a property" target="property_search" />
+		<indexitem text="Take land for a public purpose through proclamation" target="proclamation_record" />
+		<indexitem text="Transfer a property" target="ownership_transfer" />
+		<indexitem text="Use the Parent Property Wizard" target="parent_prop_wizard" />
+		<indexitem text="Verify property details" target="verify_property_details" />
+		<indexitem text="View and print the computer folio certificate" target="property_details_printing" />
+		<indexitem text="View property details" target="property_details" />
+	</indexitem>
+	<indexitem text="Registry Correction" expand="false">
+		<indexitem text="Correct the registry" target="registry_correction" />
+		<indexitem text="Correct the registry by removing rights" target="registry_correction_cancel" />
+	</indexitem>
+	<indexitem text="Release Notes" expand="false">
+		<indexitem text="Overview of release notes" target="release_notes_overview" />
+		<indexitem text="Release 1403a" target="release_1403a" />
+		<indexitem text="Release 1405a" target="release_1405a" />
+	</indexitem>
+	<indexitem text="Reporting" expand="false">
+		<indexitem text="View lodgments report" target="view_lodgment_report" />
+	</indexitem>
+	<indexitem text="Rights and Restrictions" expand="false">
+		<indexitem text="About rights, restrictions and responsibilities (RRR)" target="rrr" />
+		<indexitem text="View right and restriction details" target="property_details_rrr" />
+	</indexitem>
+	<indexitem text="Services" expand="false">
+		<indexitem text="Description of services" target="services" />
+		<indexitem text="Registration services" target="reg_services" />
+		<indexitem text="Serivce lifecycle" target="service_lifecycle" />
+		<indexitem text="Supporting services" target="support_services" />
+		<indexitem text="Survey services" target="survey_services" />
+	</indexitem>
+	<indexitem text="SOLA general concepts" target="concepts_intro" />
+	<indexitem text="Survey Plans" expand="false">
+		<indexitem text="About heads up digitizing" target="record_plan_heads_up_capture" />
+		<indexitem text="Approve a survey plan application" target="record_plan_approve" />
+		<indexitem text="Capture a plan with no coordinates" target="no_coordinate_plan" />
+		<indexitem text="Capture a survey plan" target="survey_record_plan" />
+		<indexitem text="Capture plan with number allocated by LRS" target="plan_num_allocated_by_LRS" />
+		<indexitem text="Capturing survey points" target="record_plan_survey_points" />
+		<indexitem text="Create an application to capture a survey plan" target="record_plan" />
+		<indexitem text="Digitize from a plan image" target="digitize_plan_image" />
+		<indexitem text="Load coordinate data from a survey data file" target="survey_data_file" />
+	</indexitem>
+	<indexitem text="Transmission" expand="false">
+		<indexitem text="Cancel a transmission" target="transmission_cancel" />
+		<indexitem text="Change a transmission" target="transmission_change" />
+		<indexitem text="Record a transmission" target="transmission_record" />
+	</indexitem>
+	<indexitem text="Unit Titles" expand="false">
+		<indexitem text="Cancel a unit title development" target="cancel_unit_titles" />
+		<indexitem text="Change common property" target="common_prop_add_land" />
+		<indexitem text="Change the body corporate details" target="change_body_corp" />
+		<indexitem text="Create unit title folios" target="create_unit_title_folios" />
+		<indexitem text="Enable the unit title services" target="enable_unit_titles" />
+		<indexitem text="Lodge a redevelopment plan" target="lodge_redevelopment_plan" />
+		<indexitem text="Lodge a unit title plan" target="lodge_unit_title_plan" />
+		<indexitem text="Print a certificate for the unit title development" target="print_unit_title_certifcate" />
+		<indexitem text="View unit title details" target="unit_titles" />
+	</indexitem>
+	<indexitem text="Users" expand="false">
+		<indexitem text="Change the display language" target="change_language" />
+		<indexitem text="Change  your password" target="change_password" />
+		<indexitem text="Login" target="login" />
+		<indexitem text="View user profile" target="user_profile" />
+		<indexitem text="View your dashboard" target="dashboard" />
+	</indexitem>
+	<indexitem text="Using the SOLA Desktop Help File" target="search_help" />
 </index>

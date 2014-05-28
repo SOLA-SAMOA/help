@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Cp1252">
+    <meta name="generator" content="Helen">
+    <title>Import a Survey Data File</title>
+  </head>
+  <body>
+    <h2 style=" margin-left: 20.0px;">
+       Import a Survey Data File
+    </h2>
+    <p style=" margin-left: 20.0px;">
+       When capturing survey plan data, you have the option of loading coordinate data directly
+      from a Comma Separated Values (CSV) text file. The file must be a plain text file containing
+      3 columns of data. Those columns are
+    </p>
+    <ol>
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol>
+          <li>
+            Number for the point
+          </li>
+          <li>
+            X ordinate
+          </li>
+          <li>
+            Y ordinate
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p style=" margin-left: 20.0px;">
+       Other rules that apply to the Survey Data File include
+    </p>
+    <ul>
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ul>
+          <li>
+            Each column value must be separated by a comma (,)
+          </li>
+          <li>
+            The first row of the file is treated as a header row and will be ignored
+          </li>
+          <li>
+            The file must have the .csv file extension (e.g. filename.csv)
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p style=" margin-left: 20.0px;">
+       The following illustrates a Survey Data File in CSV format (plain text) containing 8
+      coordinate points.
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <img style=" margin-left: 20.0px;" src="../images/56_survey_data_file.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>Survey Data File</b>
+    </p>
+    <p style=" margin-left: 20.0px;">
+       No transformation of the coordinates is performed during import. The coordinates must be in
+      the same coordinate system as that used by the Map Viewer. In Samoa the coordinate system of
+      the Map Viewer is Samoa Map Grid (SMG).
+    </p>
+    <p style=" margin-left: 20.0px;">
+       To import the CSV file, you must first attach the file as a document to the application
+      using the Add Documents functionality available on the Documents tab of the Application
+      Details screen. You should also select Survey Data File as the document type for the new
+      document.
+    </p>
+    <p style=" margin-left: 20.0px;">
+       Once the CSV file has been attached to the application, Start the Record Plan service and go
+      to the Documents tab (displayed beside the Layers and Find tabs). Click the Add button to
+      open the Select Document dialog and select the Survey Data File document from the
+      application. &nbsp;
+    </p>
+    <p style=" margin-left: 20.0px;">
+       Next, select the Survey Data File document from the list of documents in the Documents
+      tab.&nbsp; If the attached CSV file has a .csv file extension, then the Add points button
+      will become enabled. Click the Add points button to add the coordinates from the file. The
+      new survey points will be displayed on the map.
+    </p>
+    <p style=" margin-left: 20.0px;">
+       If the Add Points button does not become enabled when you select the Survey Data File
+      document, verify that the document has a file attachment and that file has a .csv extension.
+      &nbsp;
+    </p>
+    <p align="center">
+       <img style=" margin-left: 20.0px;" src="../images/56a_imported_points.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>Survey Data File Import</b>
+    </p>
+    <h3 style=" margin-left: 20.0px;" align="left">
+       <b>Also See</b>
+    </h3>
+    <ul>
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ul>
+          <li>
+            <a href="../appendix/app_trimble_export.html">Appendix 2 - Trimble Pathfinder Software
+            Configuration for SOLA&nbsp;Export CSV&nbsp;File</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+       &nbsp;
+    </p>
+  </body>
+</html>

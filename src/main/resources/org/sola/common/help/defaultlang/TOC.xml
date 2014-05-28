@@ -1,52 +1,188 @@
-<?xml version='1.0' encoding='ISO-8859-1' ?>
-<!DOCTYPE toc
-  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
-         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+                     "http://java.sun.com/products/javahelp/toc_2_0.dtd">
 
-<toc version="1.0">
-    <tocitem image="toplevelfolder" text="SOLA Desktop Help">
-        <tocitem image="topic" target="overview" text="Overview"/>
-        <tocitem image="topic" target="license" text="Licensing"/>
-        <tocitem image="category" text="SOLA Screens">
-            <tocitem image="topic" target="dashboard_and_main_menu" text="Dashboard and Main Menu"/>
-            <tocitem image="topic" target="map_viewer" text="SOLA Map Viewer"/>
-            <tocitem image="topic" target="application_search" text="Application Search"/>
-            <tocitem image="topic" target="application_details" text="Application Details">
-                <tocitem image="topic" target="application_lifecycle" text="Application Lifecycle"/>
-                <tocitem image="topic" target="service_lifecycle" text="Service Lifecycle"/>
-            </tocitem>
-            <tocitem image="topic" target="property_details" text="Property Details">
-                <tocitem image="topic" target="linkProperty" text="Linking property"/>
-            </tocitem>
-            <tocitem image="topic" target="cadastre_change" text="Cadastre Change"/>
-            <tocitem image="topic" target="redefine_cadastre" text="Redefine Cadastre"/>
-            <tocitem image="topic" target="propertySearch" text="Property search"/>
-            <tocitem image="topic" target="personSearch" text="Person search"/> 
-            <tocitem image="topic" target="person" text="Person details"/> 
-            <tocitem image="topic" target="documentSearch" text="Document search"/> 
-            <tocitem image="topic" target="transactionedDocument" text="Document registration"/> 
-        </tocitem>	
-        <tocitem image="category" text="How to">
-            <tocitem image="topic" target="change_language" text="Change Language"/>
-            <tocitem image="topic" target="lodge_new_application" text="Lodge a New Application"/>
-            <tocitem image="topic" target="edit_an_application" text="Edit an Application"/>
-            <tocitem image="topic" target="assign_an_application" text="Assign an Application"/>
-            <tocitem image="topic" target="unassign_an_application" text="Un-assign an Application"/>
-            <tocitem image="topic" target="add_document" text="Add Document"/>	
-            <tocitem image="topic" target="attach_digital_document" text="Attach a Digital Document"/>	
-            <tocitem image="topic" target="calculate_fees" text="Calculate Fees"/>
-            <tocitem image="topic" target="verify_property_details" text="Verify Property Details"/>
-            <tocitem image="topic" target="add_location" text="Add Location for Application"/>
-            <tocitem image="topic" target="add_ownership_details" text="Add Ownership Details to a Property"/>
-            <tocitem image="topic" target="share" text="Create share"/>
-            <tocitem image="topic" target="add_simple_right" text="Create generic right"/>
-            <tocitem image="topic" target="add_mortgage" text="Add Mortgage Details to a Property"/>
-            <tocitem image="topic" target="perform_cadastre_change" text="Perform a Cadastre Change"/> 
-            <tocitem image="topic" target="perform_redefine_cadastre" text="Perform a Redefinition of Cadastre"/> 
-            <tocitem image="topic" target="change_boundary" text="Change Boundary"/>
-            
-        </tocitem>
-
-        <tocitem image="topic" target="issues" text="Known Issues"/>			
-    </tocitem>
+<toc version="2.0">
+	<tocitem text="SOLA Desktop Help" target="sola_overview" image="logo_icon" expand="false">
+		<tocitem text="Licensing" target="licensing" />
+		<tocitem text="Using the SOLA Desktop Help File" target="search_help" />
+		<tocitem text="SOLA Concepts" target="concepts_intro" expand="false">
+			<tocitem text="Application Lifecycle" target="app_lifecycle" />
+			<tocitem text="Services" target="services">
+				<tocitem text="Registration Services" target="reg_services" />
+				<tocitem text="Survey Services" target="survey_services" />
+				<tocitem text="Supporting Services" target="support_services" />
+				<tocitem text="Service Lifecycle" target="service_lifecycle" />
+			</tocitem>
+			<tocitem text="Rights, Restrictions and Responsibilities (RRR)" target="rrr" />
+			<tocitem text="Documents" target="documents" />
+			<tocitem text="Business Rules" target="Business Rules" />
+		</tocitem>
+		<tocitem text="SOLA Desktop Screens" expand="false">
+			<tocitem text="Dashboard and Main Menu" target="dashboard" />
+			<tocitem text="SOLA Map Viewer" target="map_viewer">
+				<tocitem text="Map Tools" target="map_tools" />
+				<tocitem text="Map Scale and Location" target="map_scale_location" />
+				<tocitem text="Layers" target="map_layers" />
+				<tocitem text="Find" target="map_find" />
+				<tocitem text="Information Tool" target="information_tool" />
+				<tocitem text="Print Tool" target="map_print" />
+				<tocitem text="Export to KML Tool" target="map_kml_export" />
+				<tocitem text="Measure Tool" target="map_measure_tool" />
+				<tocitem text="Change Parcel Attributes Tool" target="map_change_parcel_attr" />
+			</tocitem>
+			<tocitem text="Application Search" target="application_search" />
+			<tocitem text="Application Details" target="application_details" />
+			<tocitem text="Property Search" target="property_search" />
+			<tocitem text="Property Details" target="property_details">
+				<tocitem text="Right and Restriction Details" target="property_details_rrr" />
+				<tocitem text="Printing" target="property_details_printing" />
+			</tocitem>
+			<tocitem text="Document Search" target="document_search">
+				<tocitem text="Power of Attorney" target="document_search_poa" />
+			</tocitem>
+			<tocitem text="Party Search" target="party_search" />
+			<tocitem text="Party Details" target="party_details" />
+			<tocitem text="User Profile" target="user_profile" />
+			<tocitem text="Document Registration" target="document_registration" />
+			<tocitem text="Record Plan" target="record_plan">
+				<tocitem text="Target Parcels" target="record_plan_target_parcels" />
+				<tocitem text="Survey Points" target="record_plan_survey_points" />
+				<tocitem text="Heads Up Digitizing" target="record_plan_heads_up_capture" />
+				<tocitem text="Creating New Parcels" target="record_plan_new_parcels" />
+				<tocitem text="Creating Parcels with Irregular Boundaries" target="record_plan_irreg_boundary" />
+				<tocitem text="Spatial Features" target="record_plan_spatial_features" />
+				<tocitem text="Approving a Plan" target="record_plan_approve" />
+			</tocitem>
+			<tocitem text="Change Map" target="change_map">
+				<tocitem text="Nodes" target="change_map_nodes" />
+				<tocitem text="Boundaries" target="change_map_boundaries" />
+				<tocitem text="Spatial Features" target="change_map_spatial_features" />
+				<tocitem text="Canceling Change Map" target="change_map_cancel" />
+			</tocitem>
+			<tocitem text="Unit Titles" target="unit_titles" />
+		</tocitem>
+		<tocitem text="General How To" expand="false">
+			<tocitem text="Log In" target="login" />
+			<tocitem text="Change You Password" target="change_password" />
+			<tocitem text="Change Language" target="change_language" />
+			<tocitem text="Lodge a New Application" target="lodge_new_application" />
+			<tocitem text="Edit an Application" target="edit_application" />
+			<tocitem text="Assign an Application" target="assign_application" />
+			<tocitem text="Unassign an Application" target="unassign_application" />
+			<tocitem text="Calculate Fees" target="calculate_fees" />
+			<tocitem text="Verify Property Details" target="verify_property_details" />
+			<tocitem text="Cancel, Withdraw or Lapse an Application" target="cancel_application" />
+			<tocitem text="Add Location for Application" target="add_location" />
+			<tocitem text="Add or Edit Agents and Banks" target="add_agent_bank" />
+			<tocitem text="View Lodgments Report" target="view_lodgment_report" />
+			<tocitem text="Print a Certified Copy" target="print_certified_copy" />
+		</tocitem>
+		<tocitem text="Documents How To" expand="false">
+			<tocitem text="Add a Document to an Application" target="add_doc_to_application" />
+			<tocitem text="Attach a File to a New Document" target="attach_file" />
+			<tocitem text="Add or Update a File Attachment on an Existing Document" target="update_attachment" />
+			<tocitem text="Link Standard Memorandum Document" target="link_standard_memorandum" />
+			<tocitem text="Locate and Link a Power of Attorney" target="link_poa" />
+			<tocitem text="Locate a Standard Form" target="locate_standard_form" />
+			<tocitem text="Record Power of Attorney" target="record_poa" />
+			<tocitem text="Cancel Power of Attorney" target="cancel_poa" />
+			<tocitem text="Record Standard Memorandum" target="record_standard_memo" />
+			<tocitem text="Cancel Standard Memorandum" target="cancel_standard_memo" />
+			<tocitem text="Record a Lands and Titles Court Judgment" target="record_land_court_judgement" />
+		</tocitem>
+		<tocitem text="Land Registration How To" expand="false">
+			<tocitem text="Lodge and Process a Land Registration Application" target="lodge_land_reg_application" />
+			<tocitem text="Ownership">
+				<tocitem text="Record Ownership" target="ownership_record" />
+				<tocitem text="Transfer" target="ownership_transfer" />
+			</tocitem>
+			<tocitem text="Estate">
+				<tocitem text="Change the Type of Estate" target="estate_change" />
+				<tocitem text="Record Proclamation" target="proclamation_record" />
+			</tocitem>
+			<tocitem text="Cancel Titles and Create New Titles" target="cancel_create_titles" />
+			<tocitem text="Mortgage">
+				<tocitem text="Record Mortgage" target="mortgage_record" />
+				<tocitem text="Variation of Mortgage" target="mortgage_change" />
+				<tocitem text="Discharge of Mortgage" target="mortgage_cancel" />
+			</tocitem>
+			<tocitem text="Lease and Sublease">
+				<tocitem text="Record Lease" target="lease_record" />
+				<tocitem text="Change Lease" target="lease_change" />
+				<tocitem text="Cancel Lease" target="lease_cancel" />
+			</tocitem>
+			<tocitem text="Caveat">
+				<tocitem text="Record Caveat" target="caveat_record" />
+				<tocitem text="Change Caveat" target="caveat_change" />
+				<tocitem text="Cancel Caveat" target="caveat_cancel" />
+			</tocitem>
+			<tocitem text="Life Estate">
+				<tocitem text="Record Life Estate" target="life_estate_record" />
+				<tocitem text="Change Life Estate" target="life_estate_change" />
+				<tocitem text="Cancel Life Estate" target="life_estate_cancel" />
+			</tocitem>
+			<tocitem text="Court Order">
+				<tocitem text="Record Court Order" target="court_order_record" />
+				<tocitem text="Change Court Order" target="court_order_change" />
+				<tocitem text="Cancel Court Order" target="court_order_cancel" />
+			</tocitem>
+			<tocitem text="Easement">
+				<tocitem text="Record Easement with Create New Titles" target="easement_record" />
+				<tocitem text="Record Easement over Existing Property" target="easement_record_exist_prop" />
+				<tocitem text="Change Easement" target="easement_change" />
+				<tocitem text="Cancel Easement" target="easement_cancel" />
+			</tocitem>
+			<tocitem text="Miscellaneous">
+				<tocitem text="Record Miscellaneous" target="misc_record" />
+				<tocitem text="Change Miscellaneous" target="misc_change" />
+				<tocitem text="Cancel Miscellaneous" target="misc_cancel" />
+			</tocitem>
+			<tocitem text="Transmission">
+				<tocitem text="Record Transmission" target="transmission_record" />
+				<tocitem text="Change Transmission" target="transmission_change" />
+				<tocitem text="Cancel Transmission" target="transmission_cancel" />
+			</tocitem>
+			<tocitem text="Convert a Paper Title" target="convert_paper_title" />
+			<tocitem text="Registry Correction">
+				<tocitem text="Correct Registry" target="registry_correction" />
+				<tocitem text="Correct Registry (Cancel Right)" target="registry_correction_cancel" />
+			</tocitem>
+			<tocitem text="Use the Add Parent Property Wizard" target="parent_prop_wizard" />
+		</tocitem>
+		<tocitem text="Survey How To" expand="false">
+			<tocitem text="Record a Plan" target="survey_record_plan" />
+			<tocitem text="Record a Plan with a Plan Number allocated by LRS" target="plan_num_allocated_by_LRS" />
+			<tocitem text="Record a Plan that has No Coordinates" target="no_coordinate_plan" />
+			<tocitem text="Change the Map" target="survey_change_map" />
+			<tocitem text="Add a Plan Image for Digitizing" target="digitize_plan_image" />
+			<tocitem text="Import a Survey Data File" target="survey_data_file" />
+			<tocitem text="Spatial Features">
+				<tocitem text="Change a Road Name, Village Name or a Hydro Parcel Name" target="spatial_feature_change_name" />
+				<tocitem text="Adding or Changing a Road, Village or Hydro Parcel" target="spatial_feature_change_geom" />
+				<tocitem text="Removing a Road, Village or Hydro Parcel from the Map" target="spatial_feature_remove" />
+				<tocitem text="Merging Road and Hydro Parcels" target="spatial_feature_merge" />
+			</tocitem>
+			<tocitem text="Change the Lot Number, Plan Number or the Area of a Parcel" target="change_parcel_attributes" />
+			<tocitem text="Remove a Parcel from the Map" target="change_parcel_attributes_remove" />
+		</tocitem>
+		<tocitem text="Unit Titles How To" expand="false">
+			<tocitem text="Enable the Unit Title Services" target="enable_unit_titles" />
+			<tocitem text="Lodge a Plan for a Unit Title Development" target="lodge_unit_title_plan" />
+			<tocitem text="Create Unit Title Folios" target="create_unit_title_folios" />
+			<tocitem text="Lodge a Redevelopment Plan" target="lodge_redevelopment_plan" />
+			<tocitem text="Change Common Property" target="common_prop_add_land" />
+			<tocitem text="Change Body Corporate Rules or Address for Service" target="change_body_corp" />
+			<tocitem text="Cancel a Unit Title Development" target="cancel_unit_titles" />
+			<tocitem text="Print a Unit Title Certificate" target="print_unit_title_certifcate" />
+		</tocitem>
+		<tocitem text="Release Notes" target="release_notes_overview" expand="false">
+			<tocitem text="Release 1405a" target="release_1405a" />
+			<tocitem text="Release 1403a" target="release_1403a" />
+		</tocitem>
+		<tocitem text="Appendix" expand="false">
+			<tocitem text="Appendix 1 - SOLA Business Rules" target="app_business_rules" />
+			<tocitem text="Appendix 2 - Trimble Pathfinder Software Configuration for SOLA Export CSV File" target="app_trimble_export" />
+		</tocitem>
+	</tocitem>
 </toc>

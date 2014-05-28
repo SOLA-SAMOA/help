@@ -68,7 +68,7 @@ public class HelpUtility {
      */
     private HelpSet getHelpSet() {
         if (helpSet == null) {
-            String pathToHS = "defaultlang/HelpSet.xml";
+            String pathToHS = "defaultlang/helpset.hs";
             try {
                 URL hsURL = getClass().getResource(pathToHS);
                 LogUtility.log("Found HelpSet at " + pathToHS, Level.FINE);

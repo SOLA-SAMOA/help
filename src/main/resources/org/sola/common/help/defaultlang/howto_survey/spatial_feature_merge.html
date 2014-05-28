@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Cp1252">
+    <meta name="generator" content="Helen">
+    <title>Merging Road and Hydro Parcels</title>
+  </head>
+  <body>
+    <h2 style=" margin-left: 20.0px;">
+       Merging Road and Hydro Parcels
+    </h2>
+    <p style=" margin-left: 20.0px;">
+       If you have two or more road and/or hydro parcels that need to be merged into one, you can
+      use the<img style=" margin-left: 20.0px;" hspace="4" src=
+      "../images/icons/layers-group.png">Merge feature of the Edit Spatial Feature screen from
+      either the Record Plan service or the Change Map service.
+    </p>
+    <p style=" margin-left: 20.0px;">
+       <b>Steps</b>
+    </p>
+    <ol>
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol>
+          <li>
+            Select the features to merge using the<img style=" margin-left: 0.0px;" hspace="4" src=
+            "../images/icons/zone.png">Select Spatial Feature tool. In order to merge features,
+            they must all exist in the same layer (Roads or Hydro Features) and they must also
+            overlap. If the features do not overlap, use the<img style=" margin-left: 0.0px;"
+            hspace="4" src="../images/icons/layer-vector.png">Edit Spatial Feature Tool to move the
+            node points to create an artificial overlap.&nbsp;
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p style=" margin-left: 20.0px;" align="center">
+       <img style=" margin-left: 20.0px;" src="../images/62_merge_overlap.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>Road parcels that have been manually overlapped</b>
+    </p>
+    <ol start="2">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol start="2">
+          <li>
+            Click the<img style=" margin-left: 20.0px;" hspace="4" src=
+            "../images/icons/table-pencil.png">Edit Spatial Feature Details tool and check indicate
+            the features that must be merged by checking the Merge checkbox beside each feature
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p style=" margin-left: 20.0px;" align="center">
+       <img style=" margin-left: 20.0px;" src="../images/62a_select_features.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>Select Features to Merge</b>
+    </p>
+    <ol start="3">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol start="3">
+          <li>
+            Click the<img hspace="4" src="../images/icons/layers-group.png">Merge button. This will
+            create a new feature based on the merged result of the selected features and the Edit
+            Spatial Features screen will be updated to show the new feature. The features selected
+            for merge will also be automatically flagged with Delete on approval.
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p style=" margin-left: 20.0px;" align="center">
+       <img style=" margin-left: 20.0px;" src="../images/62b_post_merge.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>Post Merge</b>
+    </p>
+    <ol start="4">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol start="4">
+          <li>
+            If appropriate, manually enter the Label for the new merged feature.
+          </li>
+          <li>
+            The new merged feature will not be displayed to other users until the application is
+            approved, so proceed with completing the service and approving the application.
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p style=" margin-left: 20.0px;">
+       The Merge does not support merging Road Centerlines. If you need to create a single road
+      centerline from multiple existing centerlines, use the<img style=" margin-left: 40.0px;"
+      hspace="4" src="../images/icons/car-pencil.png">Add New Road Centerline tool to create a new
+      centerline based on the centerlines that are being replaced. You also need to flag each of
+      the centerlines being replaced with Delete on Approval in the Edit Spatial Features screen.
+      This will ensure the original centerlines are removed from the map once the application is
+      approved.
+    </p>
+  </body>
+</html>
