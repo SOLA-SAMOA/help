@@ -181,9 +181,25 @@
 			<tocitem text="Print a Unit Title Certificate" target="print_unit_title_certifcate" />
 		</tocitem>
 		<tocitem text="Public User How To" expand="false">
+			<tocitem text="About SOLA Public Access" target="pau_about" />
+			<tocitem text="Logging in to SOLA Public Access" target="pau_login" />
+			<tocitem text="Changing your SOLA Password" target="pau_change_pword" />
+			<tocitem text="Using the Map Viewer" target="pau_map_viewer">
+				<tocitem text="Map Tools" target="pau_map_tools" />
+				<tocitem text="Map Scale and Location" target="pau_map_scale" />
+				<tocitem text="Map Layers" target="pau_layers" />
+				<tocitem text="Map Find" target="pau_find" />
+				<tocitem text="Map Information Tool" target="pau_info_tool" />
+				<tocitem text="Map Print" target="pau_map_print" />
+				<tocitem text="Map Measure" target="pau_map_measure" />
+			</tocitem>
+			<tocitem text="Searching for a Document" target="pau_doc_search" />
+			<tocitem text="Printing Documents" target="pau_print_docs" />
+			<tocitem text="Getting Help with SOLA Desktop" target="pau_getting_help" />
 			<tocitem text="View Public User Activity Summary Report" target="view_pua_summary" />
 		</tocitem>
 		<tocitem text="Release Notes" target="release_notes_overview" expand="false">
+			<tocitem text="Release 2001a" target="release_2001a" />
 			<tocitem text="Release 1405a" target="release_1405a" />
 			<tocitem text="Release 1403a" target="release_1403a" />
 		</tocitem>

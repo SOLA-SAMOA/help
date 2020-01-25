@@ -130,6 +130,21 @@
 		<indexitem text="View property details" target="property_details" />
 	</indexitem>
 	<indexitem text="Public User" expand="false">
+		<indexitem text="About SOLA Public Access" target="pau_about" />
+		<indexitem text="Logging in to SOLA Public Access" target="pau_login" />
+		<indexitem text="Changing your SOLA Password" target="pau_change_pword" />
+		<indexitem text="Using the Map Viewer" target="pau_map_viewer">
+			<indexitem text="Map Tools" target="pau_map_tools" />
+			<indexitem text="Map Scale and Location" target="pau_map_scale" />
+			<indexitem text="Map Layers" target="pau_layers" />
+			<indexitem text="Map Find" target="pau_find" />
+			<indexitem text="Map Information Tool" target="pau_info_tool" />
+			<indexitem text="Map Print" target="pau_map_print" />
+			<indexitem text="Map Measure" target="pau_map_measure" />
+		</indexitem>
+		<indexitem text="Searching for a Document" target="pau_doc_search" />
+		<indexitem text="Printing Documents" target="pau_print_docs" />
+		<indexitem text="Getting Help with SOLA Desktop" target="pau_getting_help" />
 		<indexitem text="View Public User Activity Summary Report" target="view_pua_summary" />
 	</indexitem>
 	<indexitem text="Registry Correction" expand="false">
@@ -139,6 +154,7 @@
 	</indexitem>
 	<indexitem text="Release Notes" expand="false">
 		<indexitem text="Overview of release notes" target="release_notes_overview" />
+		<indexitem text="Release 2001a" target="release_2001a" />
 		<indexitem text="Release 1403a" target="release_1403a" />
 		<indexitem text="Release 1405a" target="release_1405a" />
 	</indexitem>

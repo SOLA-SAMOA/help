@@ -338,4 +338,19 @@
 	<mapID target="view_pua_summary" url="howto_publicuser/view_pua_summary.html"/>
 	<mapID target="spatial_feature_add_traverse" url="howto_survey/spatial_feature_add_traverse.html"/>
 	<mapID target="spatial_feature_edit_traverse_coord" url="howto_survey/spatial_feature_edit_traverse_coord.html"/>
+	<mapID target="release_2001a" url="release_notes/release_2001a.html"/>
+	<mapID target="pau_about" url="howto_publicuser/pau_about.html"/>
+	<mapID target="pau_login" url="howto_publicuser/pau_login.html"/>
+	<mapID target="pau_change_pword" url="howto_publicuser/pau_change_pword.html"/>
+	<mapID target="pau_map_viewer" url="howto_publicuser/pau_map_viewer.html"/>
+	<mapID target="pau_map_tools" url="howto_publicuser/pau_map_tools.html"/>
+	<mapID target="pau_map_scale" url="howto_publicuser/pau_map_scale.html"/>
+	<mapID target="pau_layers" url="howto_publicuser/pau_layers.html"/>
+	<mapID target="pau_find" url="howto_publicuser/pau_find.html"/>
+	<mapID target="pau_info_tool" url="howto_publicuser/pau_info_tool.html"/>
+	<mapID target="pau_map_print" url="howto_publicuser/pau_map_print.html"/>
+	<mapID target="pau_map_measure" url="howto_publicuser/pau_map_measure.html"/>
+	<mapID target="pau_doc_search" url="howto_publicuser/pau_doc_search.html"/>
+	<mapID target="pau_print_docs" url="howto_publicuser/pau_print_docs.html"/>
+	<mapID target="pau_getting_help" url="howto_publicuser/pau_getting_help.html"/>
 </map>

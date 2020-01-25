@@ -37,6 +37,7 @@ import javax.help.Popup;
 import javax.swing.JButton;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
+import org.sola.common.StringUtility;
 import org.sola.common.logging.LogUtility;
 import org.sola.common.messaging.ClientMessage;
 import org.sola.common.messaging.MessageUtility;
@@ -68,7 +69,7 @@ public class HelpUtility {
      */
     private HelpSet getHelpSet() {
         if (helpSet == null) {
-            String pathToHS = "defaultlang/helpset.hs";
+            String pathToHS = "/org/sola/common/help/defaultlang/helpset.hs";
             try {
                 URL hsURL = getClass().getResource(pathToHS);
                 LogUtility.log("Found HelpSet at " + pathToHS, Level.FINE);
@@ -86,6 +87,7 @@ public class HelpUtility {
     private HelpBroker getHelpBroker(){
         if(helpBroker == null){
             helpBroker = getHelpSet().createHelpBroker();
+            LogUtility.log("HelpBroker created", Level.FINE);
         }
         return helpBroker;
     }
@@ -138,12 +140,17 @@ public class HelpUtility {
     }
     
     public void showTopic(String contextMapID){
-        if(getHelpBroker().isDisplayed()){
+        LogUtility.log("Show Help Topic " + (StringUtility.isEmpty(contextMapID) ? "*empty*" : contextMapID), Level.FINE);
+        if(getHelpBroker().isDisplayed()){ 
+            LogUtility.log("Presenation Displayed, Set Help CurrentID", Level.FINE);
             getHelpBroker().setCurrentID(contextMapID); 
         } else {
+            LogUtility.log("Start Help Presentation", Level.FINE);
             getHelpBroker().initPresentation();
+            LogUtility.log("Set Help CurrentID", Level.FINE);
             getHelpBroker().setCurrentID(contextMapID);
         }
         ((javax.help.DefaultHelpBroker)getHelpBroker()).setDisplayed(true);
+        LogUtility.log("HelpBroker Displayed", Level.FINE);      
     }
 }

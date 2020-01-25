@@ -94,6 +94,20 @@
 				<file title="transmission_record.html"/>
 			</directory>
 			<directory title="howto_publicuser">
+				<file title="pau_about.html"/>
+				<file title="pau_change_pword.html"/>
+				<file title="pau_doc_search.html"/>
+				<file title="pau_find.html"/>
+				<file title="pau_getting_help.html"/>
+				<file title="pau_info_tool.html"/>
+				<file title="pau_layers.html"/>
+				<file title="pau_login.html"/>
+				<file title="pau_map_measure.html"/>
+				<file title="pau_map_print.html"/>
+				<file title="pau_map_scale.html"/>
+				<file title="pau_map_tools.html"/>
+				<file title="pau_map_viewer.html"/>
+				<file title="pau_print_docs.html"/>
 				<file title="view_pua_summary.html"/>
 			</directory>
 			<directory title="howto_survey">
@@ -328,6 +342,7 @@
 			<directory title="release_notes">
 				<file title="release_1403a.html"/>
 				<file title="release_1405a.html"/>
+				<file title="release_2001a.html"/>
 				<file title="release_notes_overview.html"/>
 			</directory>
 			<directory title="screens">
