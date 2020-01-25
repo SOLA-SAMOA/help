@@ -149,6 +149,8 @@
 				<tocitem text="Correct Registry (Cancel Right)" target="registry_correction_cancel" />
 			</tocitem>
 			<tocitem text="Use the Add Parent Property Wizard" target="parent_prop_wizard" />
+			<tocitem text="Print a Certificate of Title" target="print_cot" />
+			<tocitem text="Make an Historic Deed Current" target="make_deed_current" />
 		</tocitem>
 		<tocitem text="Survey How To" expand="false">
 			<tocitem text="Record a Plan" target="survey_record_plan" />
@@ -162,6 +164,8 @@
 				<tocitem text="Adding or Changing a Road, Village or Hydro Parcel" target="spatial_feature_change_geom" />
 				<tocitem text="Removing a Road, Village or Hydro Parcel from the Map" target="spatial_feature_remove" />
 				<tocitem text="Merging Road and Hydro Parcels" target="spatial_feature_merge" />
+				<tocitem text="Add a Traverse Mark or District Boundary" target="spatial_feature_add_traverse" />
+				<tocitem text="Edit a Traverse Mark Coordinate" target="spatial_feature_edit_traverse_coord" />
 			</tocitem>
 			<tocitem text="Change the Lot Number, Plan Number or the Area of a Parcel" target="change_parcel_attributes" />
 			<tocitem text="Remove a Parcel from the Map" target="change_parcel_attributes_remove" />
@@ -175,6 +179,9 @@
 			<tocitem text="Change Body Corporate Rules or Address for Service" target="change_body_corp" />
 			<tocitem text="Cancel a Unit Title Development" target="cancel_unit_titles" />
 			<tocitem text="Print a Unit Title Certificate" target="print_unit_title_certifcate" />
+		</tocitem>
+		<tocitem text="Public User How To" expand="false">
+			<tocitem text="View Public User Activity Summary Report" target="view_pua_summary" />
 		</tocitem>
 		<tocitem text="Release Notes" target="release_notes_overview" expand="false">
 			<tocitem text="Release 1405a" target="release_1405a" />

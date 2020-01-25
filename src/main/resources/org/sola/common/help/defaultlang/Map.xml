@@ -333,4 +333,9 @@
 	<mapID target="90_appx_pathfinder_export" url="images/90_appx_pathfinder_export.png"/>
 	<mapID target="search_help" url="howto_general/search_help.html"/>
 	<mapID target="95_search_help" url="images/95_search_help.png"/>
+	<mapID target="print_cot" url="howto_landreg/print_cot.html"/>
+	<mapID target="make_deed_current" url="howto_landreg/make_deed_current.html"/>
+	<mapID target="view_pua_summary" url="howto_publicuser/view_pua_summary.html"/>
+	<mapID target="spatial_feature_add_traverse" url="howto_survey/spatial_feature_add_traverse.html"/>
+	<mapID target="spatial_feature_edit_traverse_coord" url="howto_survey/spatial_feature_edit_traverse_coord.html"/>
 </map>

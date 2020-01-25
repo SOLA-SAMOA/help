@@ -25,6 +25,9 @@
 		<indexitem text="Change a caveat" target="caveat_change" />
 		<indexitem text="Record a caveat" target="caveat_record" />
 	</indexitem>
+	<indexitem text="Certificate of Title" expand="false">
+		<indexitem text="Print a Certificate of Title" target="print_cot" />
+	</indexitem>
 	<indexitem text="Court Order" expand="false">
 		<indexitem text="Cancel a court order" target="court_order_cancel" />
 		<indexitem text="Change a court order" target="court_order_change" />
@@ -84,6 +87,8 @@
 		<indexitem text="Search the map" target="map_find" />
 		<indexitem text="Tools provided by the map" target="map_tools" />
 		<indexitem text="Viewing the map" target="map_viewer" />
+		<indexitem text="Add a Traverse Mark or District Boundary" target="spatial_feature_add_traverse" />
+		<indexitem text="Edit a Traverse Mark Coordinate" target="spatial_feature_edit_traverse_coord" />
 	</indexitem>
 	<indexitem text="Miscellaneous Memorials" expand="false">
 		<indexitem text="Cancel a miscellaneous memorial" target="misc_cancel" />
@@ -124,9 +129,13 @@
 		<indexitem text="View and print the computer folio certificate" target="property_details_printing" />
 		<indexitem text="View property details" target="property_details" />
 	</indexitem>
+	<indexitem text="Public User" expand="false">
+		<indexitem text="View Public User Activity Summary Report" target="view_pua_summary" />
+	</indexitem>
 	<indexitem text="Registry Correction" expand="false">
 		<indexitem text="Correct the registry" target="registry_correction" />
 		<indexitem text="Correct the registry by removing rights" target="registry_correction_cancel" />
+		<indexitem text="Make an Historic Deed Current" target="make_deed_current" />
 	</indexitem>
 	<indexitem text="Release Notes" expand="false">
 		<indexitem text="Overview of release notes" target="release_notes_overview" />
